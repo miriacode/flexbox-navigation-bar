@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color:hsl(0, 0%, 100%);
+}
+
+h1{
+    padding:5px 0;
+}
+
+.nav{
+    height: 3.8rem;
+    display: flex;
+    background-color:hsl(0, 0%, 20%);
+    padding: 0.5rem 01rem;
+}
+
+.nav-title{
+    font-weight: 400;
+}
+
+.nav-links{
+    width:90vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+li{
+    padding:12px;
+    font-size: 1.05rem;
+    list-style-type: none;
+}
+
+
+.li_btn{
+    padding-top:4px;
+}
+
+a{
+    font-weight: 300;
+    color:hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.active{
+    font-weight: 500;
+}
+
+.btn{
+    width: 10ch;
+    height: 2.2rem;
+    border-radius: 0.1rem;
+    border: 3.54px solid black;
+    box-shadow: 2px 4px 2px 0px hsl(0, 0%, 0%);
+    background-color: hsl(188, 78%, 41%);
+    color:hsl(0, 0%, 100%);
+    font-size: 1.2rem;
+}
